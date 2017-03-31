@@ -1,10 +1,10 @@
 
-var menuData = 'https://cdn.rawgit.com/destinydiver/MyProject/d72d6579/partsData.json';
+var menuData = 'https://cdn.rawgit.com/destinydiver/myProjectFinal/9905a0d5/MyProject/partsPage/partsData.json';
 
 $.ajax(menuData).done(function(data) {
 
-    //Find exisiting food container
-    var foodContainer = $('#foodcontainer');
+    //Find exisiting parts container
+    var foodContainer = $('#partscontainer');
 
     //Create an empty array to hold a pair of menu tables.
     var menuRow = [];
