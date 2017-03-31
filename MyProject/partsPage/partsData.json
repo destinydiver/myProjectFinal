@@ -8,8 +8,32 @@
           "price": 64.95
         },
         {
-          "name": "2010 Chevy S10 Water Pump (new)",
+          "name": "2011 GMC Jimmy Alternator (new)",
+          "price": 124
+        },
+        {
+          "name": "1999 Chevy S15 AC Compressor (used)",
+          "price": 180
+        },
+        {
+          "name": "2001 GMC Sierra S15 Distributor (used)",
+          "price": 98
+        },
+        {
+          "name": "1998 Chevy S10 Exhaust Manifold (new)",
+          "price": 100
+        },
+        {
+          "name": "2004 Chevy Intake Manifold (used)",
+          "price": 150
+        },
+        {
+          "name": "2010 Chevy S10 Radiator (used)",
           "price": 104
+        },
+        {
+          "name": "2007 Chevy Engine (Rebuilt)",
+          "price": 1200
         },
         {
           "name": "2004 Chevy S15 Alternator (new)",
@@ -74,149 +98,52 @@
       "name": "Suspension Parts",
       "items": [
         {
-          "name": "Steak Hoagie",
-          "price": 4.35
+          "name": "2005 GMC Jimmy RF Tie Rod  (new)",
+          "price": 45
         },
         {
-          "name": "Stromboli Sub",
-          "price": 5
+          "name": "2009 Chevy S10 Anti-Sway Bar (used)",
+          "price": 35
         },
         {
-          "name": "Meatball Sub",
-          "price": 4.25
+          "name": "1996 GMC Jimmy F Ball Joints (new)",
+          "price": 80
         },
         {
-          "name": "Roast Beef Sub",
-          "price": 6.5
+          "name": "1999 Chevy S10 Torsion Bar (used)",
+          "price": 30
         },
         {
-          "name": "Barbeque Chicken Sub",
-          "price": 5
+          "name": "2006 Chevy S15 F Strut   (new)",
+          "price": 35
         },
         {
-          "name": "Jalepeño Poppers",
-          "price": 4
+          "name": "2007 GMC Sierra S15 F Springs(2) (new)",
+          "price": 90
         }
       ]
     },
     {
-      "name": "Specialty Pizzas",
+      "name": "Miscellaneous",
       "items": [
         {
-          "name": "Bacon Cheddar Ham",
-          "price": 12.75
+          "name": "1996 GMC Jimmy Ignition Switch (used)",
+          "price": 30
         },
         {
-          "name": "Bacon Cheeseburger",
-          "price": 11.5
+          "name": "1996 GMC Jimmy Driver Seat (used)",
+          "price": 40
         },
         {
-          "name": "Taco Pizza",
-          "price": 12
+          "name": "2009 Chevy S10 Pass Window (used)",
+          "price": 30
         },
         {
-          "name": "Chicken Fajita",
-          "price": 11.25
+          "name": "Driver Side Door Panel (used)",
+          "price": 25
         }
-      ]
-    },
-    {
-      "name": "Classic Pizzas",
-      "items": [
-        {
-          "name": "Pepperoni",
-          "price": 9
-        },
-        {
-          "name": "Cheese",
-          "price": 8
-        },
-        {
-          "name": "Sausage",
-          "price": 9
-        },
-        {
-          "name": "Meat Lover's",
-          "price": 12
-        },
-        {
-          "name": "Supreme",
-          "price": 12.75
-        }
-      ]
-    }
-  ],
-  "Beverages": [
-    {
-      "name": "Soft Drinks",
-      "items": [
-        {
-          "name": "Pepsi",
-          "price": 2
-        },
-        {
-          "name": "Diet Pepsi",
-          "price": 2
-        },
-        {
-          "name": "Dr. Pepper",
-          "price": 2
-        },
-        {
-          "name": "Mountain Dew",
-          "price": 2
-        }
-      ]
-    },
-    {
-      "name": "Wines",
-      "items": [
-        {
-          "name": "Sangiovese",
-          "price": 8.75
-        },
-        {
-          "name": "Pinot Noir",
-          "price": 9
-        },
-        {
-          "name": "Syrah/Shiraz",
-          "price": 10
-        },
-        {
-          "name": "Merlot",
-          "price": 8
-        }
-      ]
-    },
-    {
-      "name": "Beers",
-      "items": [
-        {
-          "name": "Bud Light",
-          "price": 3
-        },
-        {
-          "name": "Blue Moon",
-          "price": 3
-        },
-        {
-          "name": "Miller Lite",
-          "price": 3
-        },
-        {
-          "name": "Pabst Blue Ribbon",
-          "price": 3
-        },
-        {
-          "name": "Guinness",
-          "price": 3
-        },
-        {
-          "name": "Good Morning",
-          "price": 3
-        }
-      ]
-    }
-  ]
-}
+       ]
+      }
+    ]
+  }
+
