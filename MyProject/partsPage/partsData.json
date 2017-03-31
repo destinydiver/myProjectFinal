@@ -14,7 +14,7 @@
         {
           "name": "2004 Chevy S15 Alternator (new)",
           "price": 120
-        },
+        }
       ]
     },
     {
@@ -43,15 +43,15 @@
         {
           "name": "2001 GMC Jimmy L Quarter Panel (used)",
           "price": 85
-        }
+        },
       {
         "name": "2010 Chevy S15 R Front Fender (used)",
         "price": 70
-      }
+      },
       {
         "name": "2008 Chevy S10 Rear Bumper (new)",
         "price": 110
-      }
+      },
       {
         "name": "2005 GMC Jimmy Front Bumper (new)",
         "price": 115
@@ -59,11 +59,11 @@
       {
         "name": "2001 GMC Jimmy L Quarter Panel (used)",
         "price": 85
-      }
+      },
     {
       "name": "2010 Chevy S15 R Front Door (used)",
       "price": 75
-    }
+    },
     {
       "name": "2008 Chevy S10 Rear Bumper (new)",
       "price": 100
