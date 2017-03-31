@@ -1,6 +1,3 @@
-/* ==========================================================================
-   CODELOUISVILLE FEWD - CSS TEMPLATE
-   ========================================================================== */
 
 
  /* ==========================================================================
@@ -116,11 +113,7 @@ button {
     outline: 0;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    border: 0;
-}
+
 
 .wrap {
   width: 100%;
@@ -140,57 +133,42 @@ img {
 .text-center {
   text-align: center;
 }
+.site-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+  background-color: tomato;
+	align-items: center;
+	text-align: center;
+}
 
 /* ==========================================================================
-   HEADER & HERO
+   HEADER
    ========================================================================== */
 
-
-header {
-  background-color: #333333;
-  background-image: url('../img/hero-bg-pizza.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0;
-  color: #FFFFFF;
-  text-align: center;
-  min-height: 80vh;
+.parts-nav {
+	margin-top: 5px;
 }
-
-nav::after {
-  visibility: hidden;
-  display: block;
-  content: "";
-  clear: both;
-  height: 0;
-}
-
-.nav-logo {
-  width: 100%;
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-
-nav ul {
+.name a,
+.parts-nav a {
   list-style: none;
-  text-align: center;
-  margin: 0;
-}
-
-nav li {
-  font-family: 'Roboto Slab', serif;
-  font-size: 100%;
-  font-weight: 700;
-  border-bottom: none;
-  display: block;
-}
-
-
-
-nav a {
   text-decoration: none;
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+}
+.parts-nav a {
+	font-size: .95em;
+	color: #3a3a3a;
+	text-transform: uppercase;
+}
+.parts-nav a:hover {
+	color: white;
+	background-color: #871719;
+}
+
+.header a ul {
+  text-decoration: none;
+  list-style: none;
   text-transform: uppercase;
   color: #fff;
   display: block;
@@ -202,10 +180,6 @@ nav a:hover {
   background-color: #871719;
 }
 
-.hero-text{
-  display: block;
-  clear: both;
-}
 
 /* ==========================================================================
    GRID SYSTEM
@@ -238,126 +212,10 @@ nav a:hover {
 
 
 /* ==========================================================================
-  Buttons
-  ========================================================================== */
-
-a.hero-button:link {
-  font-size: 140%;
-  font-family: 'Roboto Slab', serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  border: 2px solid #FFFFFF;
-  padding: 6px 12px;
-}
-
-a.hero-button:hover {
-  border-color: #871719;
-  background-color: #871719;
-}
-
-/* ==========================================================================
-   FORMS
-   ========================================================================== */
-
-form {
-
-}
-
-input {
-  width: 90%;
-  display: block;
-  border: 1px solid #333333;
-  border-radius: 3px;
-  height: 36px;
-  padding: 8px;
-  margin: 10px 0px;
-  font-size: 100%;
-}
-
-label {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-textarea#comment-field {
-  display: block;
-  border: 1px solid #333333;
-  border-radius: 3px;
-  height: 200px;
-  padding: 8px;
-  margin: 10px 0px;
-  font-size: 100%;
-  width: 100%;
-}
-
-button {
-  background-color: #FFC400;
-  color: #871719;
-  font-family: 'Roboto Slab', serif;
-  font-size: 80%;
-  text-transform: uppercase;
-  font-weight: 700;
-  height: 40px;
-  width: 100%;
-}
-
-input.button:hover {
-  background: #fff;
-  color: #09C;
-}
-
-.nwsltr-label {
-    float: left;
-    display: block;
-    width: 100%;
-    margin: 0 0 16px 0;
-}
-
-.nwsltr-input {
-    display: block;
-    border: 1px solid #c0af8e;
-    border-radius: 3px;
-    height: 40px;
-    padding: 8px;
-    margin: 0 0 10px 0;
-    font-size: 100%;
-    width: 100%;
-}
-
-.nwsltr-btn {
-    background-color: #871719;
-    border-radius: 3px;
-    color: #FFFFFF;
-    font-family: 'Roboto Slab', serif;
-    font-size: 80%;
-    text-transform: uppercase;
-    font-weight: 700;
-    height: 40px;
-    float: right;
-    display: block;
-}
-
-.nwsltr-btn:hover {
-  background-color: purple;
-}
-
-.nwsltr {
-  background-color: #E8D5B5;
-}
-
-/* ==========================================================================
    Section Details
    ========================================================================== */
 
-.history {
-    background: #871719;
-    background-image: url(../img/louies-bg-making-red.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin: 0;
-    color: #F2F2F2;
-}
+
 
 .menu-head {
   text-align: left;
@@ -381,8 +239,10 @@ input.button:hover {
 }
 
 footer {
-    background-color: #333333;
-    color: #F2F2F2;
+    background-color: #873c17;
+		color: white;
+		padding-bottom: 45px;
+    text-align: center;
 }
 
 
@@ -394,24 +254,37 @@ footer {
       width: 49.2%;
   }
 
-  nav {
-    margin-top: 4em;
-  }
 
-  nav li {
-      width: 24.95%;
-      max-width: 110px;
-      border-bottom: none;
-      display: inline-block;
-  }
 
-  .nwsltr-input {
-    width: 70%;
-    float: left;
-  }
+@media (min-width: 769px) {
+	.site-header,
+  .parts-nav {
+		display: flex;
 
-  .nwsltr-btn {
-    width: 20%;
+	}
+  .site-header {
+    flex-direction: column;
+    align-items: center;
   }
+  .col {
+    flex: 1;
+  }
+	.banner {
+		font-size: 1.4em;
+		color: #871717;
+	}
 
+	.tagline {
+		font-weight: 700;
+	}
+	.span_1of_2 {
+		width: 49.2%;
+	}
+
+@media (min-width: 1025px) {
+  .site-header {
+    flex-direction: row;
+    justify-content: space-between;
+		padding-left: 20px;
+  }
 }
